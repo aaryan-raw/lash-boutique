@@ -1,0 +1,7 @@
+# Netlify auto-detects Next.js and runs it with its Next.js runtime (server-rendered pages and API routes become functions).
+# Not verified against a live Netlify deploy: see README "Deployment".
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"

@@ -1,0 +1,2 @@
+// Keep tests hermetic: never inherit real/E2E service configuration from the shell.
+for (const k of ["DATABASE_URL", "DATABASE_POOL_MAX", "RAZORPAY_KEY_ID", "RAZORPAY_KEY_SECRET", "RAZORPAY_WEBHOOK_SECRET", "RAZORPAY_API_BASE", "ENABLE_COD", "CRON_SECRET", "RESEND_API_KEY", "EMAIL_FROM", "OWNER_EMAIL", "ADMIN_EMAIL", "ADMIN_PASSWORD_HASH", "SESSION_SECRET", "NEXT_PUBLIC_SITE_URL", "ALLOW_INDEXING"]) delete process.env[k];

@@ -1,0 +1,11 @@
+
+node_modules
+.next
+tsconfig.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+e2e/node_modules
+e2e/shots
+e2e/e2e.env

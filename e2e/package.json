@@ -1,0 +1,2 @@
+{ "name": "lash-boutique-e2e", "private": true, "description": "Browser end-to-end suite (separate install so the main app stays light)",
+  "dependencies": { "@sparticuz/chromium": "131.0.1", "axe-core": "4.10.2", "puppeteer-core": "23.10.1" } }
